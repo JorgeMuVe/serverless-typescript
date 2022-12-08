@@ -59,13 +59,22 @@ al crear el usuario se le entregada `NOMBRE_USUARIO`, `ACCES_KEY_ID` y `SECRET_A
     ```bash
     npm run deploy
 
+## APIS
+
+Para probar los endpoints expuestos se adjunto un proyecto de Postman.
+
+- POST: Para tokenizar una tarjeta, devuelve un token.
+- GET: Para recuperar información de una tarjeta.
+
+Puedes importar el [archivo](API_CULQUI.postman_collection.json) en [Postman](https://www.postman.com/downloads/)
+
 ## Adicionales
 
-- Para validar las buenas practicas del codigo con linter usamos Standar y puedes ejecutar con
+- Para validar las buenas practicas del código con linter usamos Standar y puedes ejecutar con
 el siguiente comando.
     ```bash
     npm run linter
 
 ## Contribución
 
-Las solicitudes de pull para mejorar el codigo son bienvenidas.
+Las solicitudes de pull para mejorar el código son bienvenidas.
